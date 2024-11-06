@@ -34,6 +34,17 @@ The `Users` table in `password.db` contains:
 - `hashpassword`: Bcrypt-hashed password
 - `strength`: Strength rating of the password
 
+### Database
+For managing the database, [DB Browser for SQLite](https://sqlitebrowser.org/) is used. It provides an intuitive graphical interface for working with SQLite databases.
+
+### Example: Filled Database
+
+Here is an example of what the database looks like after being populated with data:
+
+![Database Example](database.png)
+
+This image shows the SQLite database after data has been inserted. The database is stored in the `passwords.db` file and contains a table where passwords are stored.
+
 ### Requirements
 - **Python 3.x**
 - **bcrypt** library: `pip install bcrypt`
